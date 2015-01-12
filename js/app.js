@@ -55,6 +55,13 @@ jQuery(document).ready(function () {
             }, 500);
             return false;
         });
+
+        $('a.scroll').click(function(){
+            $('html, body').animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 500);
+            return false;
+        });
     });
 
 });
