@@ -1,0 +1,1 @@
+"use strict";angular.module("timestampConverterApp",["ui.bootstrap"]),angular.module("timestampConverterApp").controller("MainCtrl",["$scope",function(a){a.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]}]);
