@@ -1,0 +1,4 @@
+Redirect permanent /index.php /
+Redirect permanent /index.html /
+Redirect permanent /contact.php /contact.html
+Redirect permanent /consultant-web.php /
