@@ -1265,6 +1265,7 @@ hr.double {
   border-bottom: solid 1px #0099da;
   background-color: #f9f9f9;
 }
+
 .blockquote-big {
   font-size: 1.8em;
   line-height: 140%;
@@ -1284,6 +1285,18 @@ hr.double {
   position: relative;
   border: none;
 }
+.blockquote-color-bg-primary a,
+.blockquote-color-bg-primary a:hover,
+.blockquote-color-bg-primary a:focus,
+.blockquote-color-bg-primary a:active {
+  color: #fff;
+}
+.blockquote-color-bg-primary:before,
+.blockquote-color-bg-primary:after {
+  display: table;
+  content: " ";
+}
+
 .blockquote-color-bg-primary:after,
 .blockquote-color-bg-dark:after {
   font-family: "FontAwesome";
